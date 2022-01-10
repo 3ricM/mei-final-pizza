@@ -2,7 +2,7 @@ import React from 'react';
 import hawaiian from './images/hawaiian.jpg';
 import './css/slice.css';
 
-function Hawaiian() {
+function Hawaiian(props) {
   return(
     <div className="Hawaiian col-4">
       <div className="card">

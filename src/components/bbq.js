@@ -2,7 +2,7 @@ import React from 'react';
 import bbq from './images/bbq.jpg';
 import './css/slice.css';
 
-function Bbq() {
+function Bbq(props) {
   return(
     <div className="Hawaiian col-4">
       <div className="card">

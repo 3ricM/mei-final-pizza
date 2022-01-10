@@ -2,7 +2,7 @@ import React from 'react';
 import pepperoni from './images/pepperoni.jpg';
 import './css/slice.css';
 
-function Pepperoni() {
+function Pepperoni(props) {
   return(
     <div className="Pepperoni col-4">
       <div className="card">

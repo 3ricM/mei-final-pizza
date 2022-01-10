@@ -2,7 +2,7 @@ import React from 'react';
 import veggie from './images/veggie.jpeg';
 import './css/slice.css';
 
-function Veggie() {
+function Veggie(props) {
   return(
     <div className="Veggie col-4">
       <div className="card">

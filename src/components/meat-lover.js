@@ -2,7 +2,7 @@ import React from 'react';
 import meat from './images/meat.jpg';
 import './css/slice.css';
 
-function MeatLover() {
+function MeatLover(props) {
   return(
     <div className="MeatLover col-4">
       <div className="card">
